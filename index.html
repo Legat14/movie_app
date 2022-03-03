@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google" content="notranslate">
+  <title>Movie app</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=El+Messiri&family=Rowdies:wght@300;400;700&display=swap"
+    rel="stylesheet">
+  <link type="image/x-icon" href="./favicon.ico" rel="shortcut icon">
+  <link type="image/x-icon" href="./favicon.ico" rel="icon">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-div">
+      <h1><a href="https://rolling-scopes-school.github.io/legat14-JSFEPRESCHOOL/movie_app/">Movie app</a></h1>
+      <div class="search">
+        <button type="button" class="x-button clear-button" hidden>X</button>
+        <input type="text" class="search-input" placeholder="Search">
+        <button type="button" class="search-button">Search</button>
+      </div>
+    </div>
+  </header>
+  <main>
+
+    <div class="nothing-found">
+      <img src="./assets/img/nothing_found.png" alt="nothing-found" width="555" height="350">
+    </div>
+
+    <div class="movie-list">
+
+    </div>
+
+    <div class="description-window" hidden>
+      <div class="description-window-div">
+        <img class="description-window-img" src="./assets/img/no_image.jpg" alt="poster" width="400" height="600">
+        <div class="description-div">
+          <h2 class="description-title">Movie title</h2>
+          <p class="description">Movie description</p>
+        </div>
+        <button type="button" class="x-button close-button">X</button>
+      </div>
+    </div>
+
+    <div class="dark-bg" hidden></div>
+
+    <button type="button" class="x-button go-up-button" hidden>⇪</button>
+
+  </main>
+
+  <footer>
+    <div class="footer-div">
+      <div class="rs-school">
+        <a href="https://rs.school/js-stage0/" target="_blank">
+          <img src="./assets/svg/rs_school_js.svg" alt="rs-school" width="241" height="90">
+        </a>
+      </div>
+      <div class="development">
+        <div class="developer">
+          <p>Developer:</p>
+          <a href="https://github.com/Legat14" target="_blank">Legat14</a>
+        </div>
+        <p>02/2022</p>
+      </div>
+      <div class="tmdb">
+        <a href="https://www.themoviedb.org/" target="_blank">
+          <img src="./assets/svg/tmdb_logo.svg" alt="tmdb" width="187" height="80">
+        </a>
+        <p>This product uses the TMDB API but is not endorsed or certified by TMDB</p>
+      </div>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
